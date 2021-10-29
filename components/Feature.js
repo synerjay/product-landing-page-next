@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
+
 const FeatureBox = (props) => {
   return (
     <>
@@ -68,6 +69,7 @@ const FeatureBox = (props) => {
     </>
   );
 };
+
 const Feature = () => {
   const features = [
     {
